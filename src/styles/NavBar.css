@@ -1,0 +1,50 @@
+.agv-navbar {
+  color: #ED1C24;
+  padding: 0px 25px;
+  text-align: right;
+  background-color: #020100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.agv-navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.agv-navbar li {
+  color: #FDFFFC;
+  margin: 5px 5px;
+  padding: 2px 30px;
+  list-style: none;
+  border-bottom: 5px solid #ED1C24;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.agv-navbar li:hover {
+  border-bottom: 5px solid #ED1C24;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+@-webkit-keyframes li {}
+
+@keyframes li {}
+/*# sourceMappingURL=NavBar.css.map */

@@ -1,0 +1,31 @@
+.agv-navbar {
+  color: $redColor; 
+  padding: 0px 25px;
+  text-align: right;
+  background-color: $blackColor;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+  ul {
+    display: flex;
+    flex-flow: row wrap;
+   
+  }
+  li {
+    color: $whiteColor  ;
+    margin: 5px 5px;
+    padding: 2px 30px;
+    list-style: none;
+    border-bottom: 5px solid $redColor;
+    transition: 0.1s;
+
+    &:hover {
+      border-bottom: 5px solid $redColor;
+      transition: 0.1s;
+    }
+
+  }
+
+}
